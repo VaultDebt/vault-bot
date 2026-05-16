@@ -1,0 +1,5 @@
+.env
+node_modules/
+leads.json
+permanentMessage.json
+*.log
