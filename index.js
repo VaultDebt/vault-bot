@@ -1,3 +1,13 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Vault Bot Online");
+});
+
+app.listen(3000, () => {
+  console.log("Web server running.");
+});
 require("dotenv").config();
 
 const fs = require("fs");
